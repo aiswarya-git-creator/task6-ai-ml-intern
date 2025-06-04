@@ -30,6 +30,6 @@ To understand and implement the K-Nearest Neighbors (KNN) algorithm for classifi
 
 # Outputs
 
-* Accuracy for Different K Values (Printed and Visualized)**  
+* Accuracy for Different K Values
 * Confusion Matrix for Best K
 * KNN Decision Boundary Plot  
