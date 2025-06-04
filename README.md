@@ -17,7 +17,7 @@ To understand and implement the K-Nearest Neighbors (KNN) algorithm for classifi
 # Train-Test Split
    * Dataset split into 80% training and 20% testing using `train_test_split`.
 # Model Training and Evaluation
-   * Trained `KNeighborsClassifier` for K values from 1 to 10.
+   * Trained `KNeighborsClassifier` for K values from 1 to 20.
    * Calculated accuracy for each K.
    * Printed accuracy results and identified the best K.
 # Confusion Matrix
