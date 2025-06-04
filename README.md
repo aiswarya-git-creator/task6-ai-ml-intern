@@ -1,34 +1,35 @@
-# To understand and implement the K-Nearest Neighbors (KNN) algorithm for solving classification problems using a structured, step-by-step approach.
+# Objective
+To understand and implement the K-Nearest Neighbors (KNN) algorithm for classification problems using the **Iris dataset**.
 
 # Tools Used
+* Python
+* Pandas, NumPy
+* Matplotlib
+* Scikit-learn
 
-* Scikit-learn – for dataset loading, model building, and evaluation
-* Pandas – for data handling
-* Matplotlib – for plotting and visualizations
+# Steps Performed
+# Dataset Loading
+   * Loaded the Iris dataset from `sklearn.datasets`.
+   * Features: Sepal length, Sepal width, Petal length, Petal width.
+   * Target: 3 classes of Iris species.
+# Feature Normalization
+   * Used `StandardScaler` to normalize the features.
+# Train-Test Split
+   * Dataset split into 80% training and 20% testing using `train_test_split`.
+# Model Training and Evaluation
+   * Trained `KNeighborsClassifier` for K values from 1 to 10.
+   * Calculated accuracy for each K.
+   * Printed accuracy results and identified the best K.
+# Confusion Matrix
+   * Displayed the confusion matrix using `ConfusionMatrixDisplay` for best K.
+# Accuracy Visualization
+   * Plotted K vs Accuracy using Matplotlib to visualize how accuracy changes with different K values.
+# Decision Boundary Visualization
+   * Used only the first two features.
+   * Visualized decision boundaries using contour plot for the best K.
 
-# Task Overview
+# Outputs
 
-# Dataset Selection and Normalization
-  * Used the Iris dataset as the classification dataset.
-  * Applied feature normalization using StandardScaler to bring all feature values to a similar scale.
-# Model Building with KNeighborsClassifier
-  * Implemented the KNN classifier using KNeighborsClassifier from Scikit-learn.
-  * Trained the model using the training portion of the dataset.
-# Experimented with Different Values of K
-  * Tested multiple values of K (1 to 10).
-  * Calculated and compared the accuracy for each K to determine the most effective one.
-# Model Evaluation
-  * Selected the best-performing K value.
-  * Evaluated the classifier using accuracy score and confusion matrix. 
-  * Displayed the confusion matrix for visual analysis of model performance.
-# Visualized Decision Boundaries
-  * Used only the first two features of the dataset for visualization.
-  * Plotted decision boundaries to demonstrate how the KNN classifier separates different classes visually in 2D space.
-
-# Dataset
-Dataset Used: Iris Dataset
-
-# Outcome
-* Successfully implemented the KNN classification algorithm.
-* Gained insight into how K values affect model accuracy.
-* Visualized how KNN classifies data in a 2D feature space using decision boundaries.
+* Accuracy for Different K Values (Printed and Visualized)**  
+* Confusion Matrix for Best K
+* KNN Decision Boundary Plot  
